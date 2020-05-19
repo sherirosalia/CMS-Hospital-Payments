@@ -10,12 +10,12 @@ Click on this <a href='https://sherirosalia.github.io/cms_hospital_payments/'><s
 Google Map API, Plotly and Python. 
 
 ### File Structure
--The app.py script contains the api call for openpaymentsdata.cms.gov.
--Index file is Plotly generated html.
--The geocoding script is in geocode.py.
--The hospitals_map.py creates the Plotly map.
--Data at various stages are in the CSV files.
--Screenshots in the img folder.
+- The app.py script contains the api call for openpaymentsdata.cms.gov.
+- Index file is Plotly generated html.
+- The geocoding script is in geocode.py.
+- The hospitals_map.py creates the Plotly map.
+- Data at various stages are in the CSV files.
+- Screenshots in the img folder.
 
 
 ### US Map

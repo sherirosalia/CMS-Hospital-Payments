@@ -22,5 +22,17 @@ Screenshots in img folder.
 ### US Map
 ![](img/usa_hospitals.png)
 
-### Bubble Plot
+### Port Jefferson, NY
+![](img/st_charles_ny.png)
+
+### Stony Brook, NY
+![](img/stony_brook_ny.png)
+
+### Manhattan, NY
+![](img/manhattan_ny.png)
+
+### San Diego, CA
+![](img/san_diego_ca.png)
+
+### Ponce, Puerto Rico
 ![](img/puerto_rico.png)

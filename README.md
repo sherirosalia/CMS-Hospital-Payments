@@ -4,7 +4,7 @@
 Interactive map plot of CMS payments to teaching hospitals in 2018 using data from the US Government Open Payments API. (openpaymentsdata.cms.gov)
 
 ### Deployed on Github Pages
-Click on this <a href='https://sherirosalia.github.io/cms_hospital_payments/'>link </a>above to view the interactive projection created in Plotly. Hospital location and total money received in display on hover.
+Click on this <a href='https://sherirosalia.github.io/cms_hospital_payments/'>link </a>to view the interactive projection created in Plotly. Hospital location and total money received in display on hover.
 
 ### Frameworks
 Python, Google map API, Plotly Python and Pandas. 

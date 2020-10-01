@@ -3,12 +3,32 @@
 import pandas as pd
 from sodapy import Socrata
 
+
+# client = Socrata('data.ny.gov','APP-TOKEN',
+#                 username='EMAIL-USERNAME',
+#                 password='PASSWORD')
+# client = Socrata("sandbox.demo.socrata.com", "FakeAppToken", 
+# username="fakeuser@somedomain.com", password="mypassword")
+
+# results = client.get('xe9x-a24f', limit=2000)
+
 # Unauthenticated client only works with public data sets. Note 'None'
 # in place of application token, and no username or password:
+
+# client = Socrata('data.ny.gov','APP-TOKEN',
+#                 username='EMAIL-USERNAME',
+#                 password='PASSWORD')
+
+
+
+# https://openpaymentsdata.cms.gov/resource/axsx-c8us.json
+
 client = Socrata("openpaymentsdata.cms.gov", None)
 
-results = client.get("xrap-xhey", select="distinct teaching_hospital_ccn",)
-
+# results = client.get("xrap-xhey", select="distinct teaching_hospital_ccn",)
+results = client.get("axsx-c8us", select='applicable_manufacturer_or_applicable_gpo_making_payment_id')[-1]
+print(results)
+exit()
 hospital_list=[]
 for result in results:  
     if 'teaching_hospital_ccn' in result:
